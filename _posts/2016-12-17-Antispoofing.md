@@ -9,7 +9,7 @@ El email se inventó hace muchos años y desde entonces han ido apareciendo dive
 Desde los orígenes del email siempre se han enviado mensajes desde otros servidores diferentes al del campo “From:” ya fuese por comodidad, por ahorro de recursos… o porque somos una empresa malvada que spamea a sus clientes con un boletín de publicidad enviado desde un servidor externo. 
 Para que otras personas no puedan enviar mensajes con las cuentas de nuestro dominio se crearon los tres sistemas mencionados.
 
-SPF. Es el más sencillo de entender e implementar. Con él se le dice a los servidores de los destinatarios desde qué servidores se pueden enviar los emails de un dominio. Se hace mediante un registro DNS que contiene como este:
+SPF. Es el más sencillo de entender e implementar. Con él se le dice a los servidores de los destinatarios desde qué servidores se pueden enviar los emails de un dominio. Se hace creando un registro DNS que contenga algo así:
 
 ![terminal.png]({{site.baseurl}}/images/terminal.png)
 
