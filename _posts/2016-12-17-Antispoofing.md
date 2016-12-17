@@ -26,8 +26,11 @@ Aparte de publicar la política se debería implementar el envío de reportes DM
 
 
 Conclusiones:
+
 SPF es muy sencillo de implementar para cualquier administrador de un dominio, su uso está muy extendido y por si solo debería reducir bastante el problema del [spoofing en email](https://en.wikipedia.org/wiki/E-mail_spoofing), aunque todavía hay servidores que no lo usan.
+
 DKIM asegura que un email con una firma válida no ha sido modificado, mientras se confie en el servidor de origen (que se lo digan a Hillary).
+
 DMARC puede ayudar a detectar además de spoofing real políticas SPF o DKIM mal implementadas dando una pista de que está saliendo el correo por servidores no incluidos en la política.
 
 Independientemente de las medidas aplicadas por los servicios de email los usuarios pueden firmar sus mensajes con [OpenPGP](http://openpgp.org) o un certificado S/MIME (por ejemplo FNMT), con el inconveniente de que no hay un sistema automático que indique la política a aplicar por las máquinas receptoras cuando un email no va firmado por el usuario.
