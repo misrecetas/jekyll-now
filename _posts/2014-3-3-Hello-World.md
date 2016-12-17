@@ -5,13 +5,11 @@ title: Cómo evitar suplantación de identidad en correo electrónico
 
 El email se inventó hace muchos años y desde entonces han ido apareciendo diversos RFC con mejoras para adaptarlo a los nuevos tiempos. Una de estas mejoras es DMARC, junto con SPF y DKIM.
 
-![_config.yml]
-
 Desde los orígenes del email siempre se han enviado mensajes desde otros servidores diferentes al del campo “From:” ya fuese por comodidad, por ahorro de recursos… o porque somos una empresa malvada que spamea a sus clientes con un boletín de publicidad enviado desde un servidor externo. Para que otras personas no puedan enviar mensajes con las cuentas de nuestro dominio se crearon los tres sistemas mencionados.
 
 SPF. Es el más sencillo de entender e implementar. Con él se le dice a los servidores de los destinatarios desde qué servidores se pueden enviar los emails de un dominio. Se hace mediante un registro DNS que contiene como este:
 
-({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/config.png)
 
 Esta línea dice que todo lo que no se envíe desde las IP de los registros MX o desde los otros servidores de evil-corp-usa no cumple la política del dominio, lo que quiere decir que seguramente vaya a la carpeta Spam.
 Si no termina en ~all o en -all lo más seguro es que esté mal configurado, hay algunos servidores que lo tienen en ?all que no tiene ningún sentido más allá de verificar en el rato que dediquemos a implementarlo que la línea no tiene una coma donde no debe o cosas así.
