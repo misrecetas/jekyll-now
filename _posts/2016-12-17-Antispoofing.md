@@ -7,7 +7,7 @@ published: true
 El email se inventó hace muchos años y desde entonces han ido apareciendo diversos RFC con mejoras para adaptarlo a los nuevos tiempos. Una de estas mejoras es DMARC, junto con SPF y DKIM.
 
 Desde los orígenes del email siempre se han enviado mensajes desde otros servidores diferentes al del campo “From:” ya fuese por comodidad, por ahorro de recursos… o porque somos una empresa malvada que spamea a sus clientes con un boletín de publicidad enviado desde un servidor externo. 
-Para que otras personas no puedan enviar mensajes con las cuentas de nuestro dominio se crearon los tres sistemas mencionados.
+Para que otras personas no puedan enviar mensajes poniendo como "From:" una dirección de nuestro dominio se crearon los tres sistemas mencionados.
 
 SPF. Es el más sencillo de entender e implementar. Con él se le dice a los servidores de los destinatarios desde qué servidores se pueden enviar los emails de un dominio. Se hace creando un registro DNS que contenga algo así:
 
