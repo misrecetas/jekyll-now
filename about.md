@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Receta
 
-### More Information
+[...]
 
-A place to include any other types of information that you'd like to include about yourself.
+2. f. Nota escrita de una receta.
 
-### Contact me
+3. f. Nota que comprende aquello de que debe componerse algo, y el modo de hacerlo. Receta de cocina.
 
-[email@domain.com](mailto:email@domain.com)
+4. f. Procedimiento adecuado para hacer o conseguir algo. Nadie tiene la receta para ser feliz.
