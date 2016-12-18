@@ -33,4 +33,4 @@ DKIM asegura que un email con una firma válida no ha sido modificado, mientras 
 
 DMARC puede ayudar a detectar además de spoofing real políticas SPF o DKIM mal implementadas dando una pista de que está saliendo el correo por servidores no incluidos en la política.
 
-Independientemente de las medidas aplicadas por los servicios de email los usuarios pueden firmar sus mensajes con [OpenPGP](http://openpgp.org) o un certificado S/MIME (por ejemplo FNMT), con el inconveniente de que no hay un sistema automático que indique la política a aplicar por las máquinas receptoras cuando un email no va firmado por el usuario.
+Independientemente de las medidas aplicadas por los servicios de email los usuarios pueden firmar sus mensajes con [OpenPGP](http://openpgp.org) o un certificado S/MIME (por ejemplo FNMT), con el inconveniente de que requiere mayor interacción por parte del usuario.
