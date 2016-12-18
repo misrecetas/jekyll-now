@@ -29,7 +29,7 @@ Aparte de publicar la política se debería implementar el envío de reportes DM
 
 SPF es muy sencillo de implementar para cualquier administrador de un dominio, su uso está muy extendido y por si solo debería reducir bastante el problema del [spoofing en email](https://en.wikipedia.org/wiki/E-mail_spoofing), aunque todavía hay servidores que no lo usan.
 
-DKIM asegura que un email con una firma válida no ha sido modificado, mientras se confie en el servidor de origen (que se lo digan a Hillary).
+DKIM asegura que un email con una firma válida no ha sido modificado, mientras se confíe en el servidor de origen (que se lo digan a Hillary).
 
 DMARC puede ayudar a detectar además de spoofing real políticas SPF o DKIM mal implementadas dando una pista de que está saliendo el correo por servidores no incluidos en la política.
 
