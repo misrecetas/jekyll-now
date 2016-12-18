@@ -15,7 +15,7 @@ SPF. Es el más sencillo de entender e implementar. Con él se le dice a los ser
 
 Esta línea dice que todo lo que no se envíe desde las IP de los registros MX o desde los otros servidores de evil-corp-usa no cumple la política del dominio, lo que quiere decir que seguramente vaya a la carpeta Spam.
 
-Si no termina en ~all o en -all lo más seguro es que esté mal configurado, hay algunos servidores que lo tienen en ?all que no tiene ningún sentido más allá de verificar en el rato que dediquemos a implementarlo que la línea no tiene una coma donde no debe o cosas así.
+Si no termina en ~all o en -all lo más seguro es que esté mal configurado, hay algunos servidores que lo tienen en ?all, que solo tiene sentido para pruebas.
 
 DKIM. Puede ser imposible de implementar si usamos un servicio de hosting ya que su funcionamiento se basa en que nuestro servidor de correo firme los mensajes y los servidores destinatarios comprueben que están firmados con una clave pública que hay en un registro DNS.
 
