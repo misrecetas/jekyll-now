@@ -25,7 +25,7 @@ Aparte de publicar la política se debería implementar el envío de reportes DM
 "Mail Receivers [SHOULD](https://tools.ietf.org/html/rfc7489) also implement reporting instructions of DMARC"
 
 
-# Conclusiones:
+### Conclusiones:
 
 SPF es muy sencillo de implementar para cualquier administrador de un dominio, su uso está muy extendido y por si solo debería reducir bastante el problema del [spoofing en email](https://en.wikipedia.org/wiki/E-mail_spoofing), aunque todavía hay servidores que no lo usan.
 
