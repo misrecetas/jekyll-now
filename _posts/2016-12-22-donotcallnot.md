@@ -12,4 +12,4 @@ Mientras tanto hay algunas webs que pueden ser útiles para bloquear los número
 
 Otras personas han usado esos datos [en una PBX](http://www.securitybydefault.com/2012/03/construyendo-un-sistema.html), pero pueden servir también para teléfonos analógicos y para algunos router voip utilizando un software como [este](https://github.com/pamapa/callblocker). Y un script de andar por casa que descargue los datos:
 
-![2016-12-22-192728_724x436_scrot.png]({{site.baseurl}}/images/2016-12-22-192728_724x436_scrot.png)
+![scriptphonespam.png]({{site.baseurl}}/images/scriptphonespam.png)
