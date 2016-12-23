@@ -10,6 +10,6 @@ La FCC estadounidense ha puesto a disposición de usuarios, desarrolladores y op
 
 Mientras tanto hay algunas webs que pueden ser útiles para bloquear los números que más reportes tienen. 
 
-Otras personas han usado esos datos [en una PBX](http://www.securitybydefault.com/2012/03/construyendo-un-sistema.html), pero pueden servir también para teléfonos analógicos y para algunos router voip utilizando un software como [este](https://github.com/pamapa/callblocker). Y un script de andar por casa que descargue los datos:
+Otras personas han usado esos datos [en una PBX](http://www.securitybydefault.com/2012/03/construyendo-un-sistema.html), pero pueden servir también para teléfonos analógicos y para algunos router voip utilizando un software como [este](https://github.com/pamapa/callblocker) en un [SBC](https://en.wikipedia.org/wiki/Single_board_computer). Y un script de andar por casa que descargue los datos:
 
 ![scriptphonespam.png]({{site.baseurl}}/images/scriptphonespam.png)
