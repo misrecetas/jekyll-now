@@ -19,4 +19,4 @@ Te esperamos, hay sitio para todos.
 El tiempo no cuenta, ni el espacio...
 Cualquier noche puede salir el sol.```
 
-(Sisa, Qualsevol Nit pot sortir el Sol)
+(Sisa, Qualsevol nit pot sortir el sol)
