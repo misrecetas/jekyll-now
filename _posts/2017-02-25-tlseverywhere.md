@@ -4,7 +4,7 @@ title: Pasar web a HTTPS en 2 minutos
 published: true
 ---
 
-Muchas tiendas online, compañías ferroviarias, compañías eléctricas y otras webs que trabajan con datos personales siguen funcionando sin cifrado HTTPS, a pesar de las recomendaciones que dan organismos públicos como la AEPD y la [OSI](https://www.osi.es/es/actualidad/blog/2012/03/26/compra-por-el-movil-de-forma-segura) desde hace años.
+Muchas tiendas online, compañías ferroviarias, compañías eléctricas y otras webs que trabajan con datos personales siguen funcionando sin cifrado HTTPS, a pesar de las recomendaciones que dan organismos públicos como la [AEPD](https://www.agpd.es/portalwebAGPD/jornadas/dia_internet_2013/recomendaciones-ides-idphp.php) y la [OSI](https://www.osi.es/es/actualidad/blog/2012/03/26/compra-por-el-movil-de-forma-segura) desde hace años.
 
 Ahora tener HTTPS en una web y que muestre el candadito en la barra de direcciones de los navegadores sin ningún aviso de precaución no tiene por qué suponer un gasto, los certificados de Let's Encrypt son gratuitos y el proceso para crearlos, instalarlos y renovarlos supera en sencillez a cualquier otro sistema.
 
