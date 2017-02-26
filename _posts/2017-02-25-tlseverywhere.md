@@ -6,6 +6,9 @@ published: true
 
 Muchas tiendas online, compañías ferroviarias, compañías eléctricas y otras webs que trabajan con datos personales siguen funcionando sin cifrado HTTPS, a pesar de las recomendaciones que dan organismos públicos como la [AEPD](https://www.agpd.es/portalwebAGPD/jornadas/dia_internet_2013/recomendaciones-ides-idphp.php) y la [OSI](https://www.osi.es/es/actualidad/blog/2012/03/26/compra-por-el-movil-de-forma-segura) desde hace años.
 
+![renfe.png]({{site.baseurl}}/images/renfe.png)
+
+
 Ahora tener HTTPS en una web y que muestre el candadito en la barra de direcciones de los navegadores sin ningún aviso de precaución no tiene por qué suponer un gasto, los certificados de Let's Encrypt son gratuitos y el proceso para crearlos, instalarlos y renovarlos supera en sencillez a cualquier otro sistema.
 
 * Muchos servicios de [alojamiento](https://community.letsencrypt.org/t/web-hosting-who-support-lets-encrypt/6920) que no dan acceso total al usuario dan la posibilidad de utilizar los certificados de Let's Encrypt a golpe de ratón.
