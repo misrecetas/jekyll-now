@@ -12,6 +12,7 @@ Ahora tener HTTPS en una web y que muestre el candadito en la barra de direccion
 
 Para crear los certificados y configurar un servidor web Nginx en Raspbian Jessie podemos utilizar los paquetes de Certbot que hay en el repo de Raspbian testing, siguiendo estos pasos en una terminal:
 
+* Para el último paso es necesario que el servidor acepte conexiones al puerto 443 desde internet, para que la entidad certificadora compruebe que la petición de certificado corresponde al usuario del dominio.
 
 ```sudo su -```
 
