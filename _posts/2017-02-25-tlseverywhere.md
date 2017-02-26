@@ -12,16 +12,18 @@ Ahora tener HTTPS en una web y que muestre el candadito en la barra de direccion
 
 Para crear los certificados y configurar un servidor web Nginx en Raspbian Jessie podemos utilizar los paquetes de Certbot que hay en el repo de Raspbian testing, siguiendo estos pasos en una terminal:
 
+
 ```sudo su -```
 
 ```echo "deb http://mirrordirector.raspbian.org/raspbian/ stretch main contrib non-free rpi" >> /etc/apt/sources.list.d/stretch.list```
 
 ```echo -e "Package:  *\nPin:  release n=jessie\nPin-Priority:  600" >> /etc/apt/preferences.d/preferences```
 
-```apt-get update && apt-get install python-certbot-nginx```
+```apt-get update && apt-get install -t stretch python-certbot-nginx```
 
 ```tar zcvf backup_conf_nginx.tgz /etc/nginx```
 
 ```certbot --nginx```
+
 
 Al lanzar Certbot el asistente preguntará para qué dominio queremos el certificado, que puede ser perfectamente un [subdominio](https://community.letsencrypt.org/t/will-you-issue-certificates-for-third-level-domains-too/1962). Certbot es un software que se mejora cada poco tiempo así que lo mejor para resolver cualquier duda es ir a la [web oficial](https://certbot.eff.org/docs/using.html). Hay otros softwares, ya que Let's Encrypt ha creado un protocolo abierto para comunicarse con sus servidores, pero este tiene la ventaja de automatizarlo todo al máximo y el paquete Debian que hemos instalado tiene un script de Cron que renueva automáticamente los certificados cuando llega la fecha.
